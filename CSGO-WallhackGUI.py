@@ -53,7 +53,7 @@ change_button = Button(gui, text="Start", command=button_action)
 change_button.place(x = 100, y = 50, width=300, height=100)
 
 # Hyperlink
-link = Label(gui, text="UPDATE CHECK", fg="blue", cursor="hand2")
+link = Label(gui, text="github.com/rootshx", fg="blue", cursor="hand2")
 link.place(x = 100, y = 175, width=300, height=100)
 link.bind("<Button-1>", lambda e: callback("https://github.com/rootshx/CSGO-WallhackGUI"))
 
